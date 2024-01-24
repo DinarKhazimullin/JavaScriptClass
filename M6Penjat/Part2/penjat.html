@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penjat</title>
+    <script src="penjat.js"></script>
+    <link rel="stylesheet" href="penjat.css">
+</head>
+<body>
+    <!--Div de menu on tenim els tres butons per trucar les funcions-->
+    <div id="menu">
+        <button onclick="novaPartida()">Iniciar una partida</button>
+        <button onclick="estadistiques()">Estadistiques</button>
+        <button onclick='borrarEstadistiques()'>Borrar informacio</button>
+    </div>
+    <!--Div per poder posar els paragrafs de les estadistiques-->
+    <div id="estadistica">
+    </div>
+    <!--Div on aniran els elements del joc-->
+    <div>
+        <div id="jocPenjat"></div>
+        <div id="abecedari"></div>
+        <img src="" id="imatgePenjat">
+        <div id="lletresUtilitzades"></div>
+    </div>
+</body>
+</html>
